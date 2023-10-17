@@ -45,7 +45,7 @@ void blinkMorse(DigitalOut& led, const char* morseChar) {
 int main() {
    
     DigitalOut led(LED1);
-    const char* word = "Audi quattro";
+    const char* word = "Morseovka";
 
     while (true) {
         for (int i = 0; word[i]; i++) {
